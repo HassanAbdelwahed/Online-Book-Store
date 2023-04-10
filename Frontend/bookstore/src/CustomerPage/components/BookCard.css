@@ -1,0 +1,97 @@
+.Card img {
+    width: 400px;
+}
+
+.Card .description {
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: white;
+    margin-top: -12px;
+    border-radius:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Card {
+    width: 400px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.Card p {
+    color: var(--second-paragraph);
+    margin-top: -7px;
+}
+
+.Card h3 {
+    color: var(--second-color);
+}
+
+.priceCard {
+    display: flex;
+    justify-content: space-between;
+}
+
+#price {
+    color: var(--main-color);
+}
+
+.img_container{
+    margin-bottom: 20px;
+}
+
+.description .quantity {
+    margin-top: 10px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 100px;
+    background: var(--main-color);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.description .quantity button {
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    color: var(--main-color);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.description .quantity p {
+    margin: 0;
+    color: white;
+}
+
+
+/* End Price Footer */
+/* End Explore section  */
+/* Start Cart  */
+.Cart {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    right: 10px;
+    background-color: var(--main-color);
+    font-size: 55px;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+
+/* End Cart  */

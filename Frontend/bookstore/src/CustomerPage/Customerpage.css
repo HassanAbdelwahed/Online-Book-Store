@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: Poppins;
+}
+
+:root {
+    --back-color: #9ED2C6;
+    --main-color: #54BAB9;
+    --second-color: #E9DAC1;
+    --second-paragraph: #F7ECDE;
+}
+
+.Main {
+
+    background-color: var(--back-color);
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+/** Hearder**/
+
+/*Start Header*/
+
+.CHeader{
+ 
+    padding-top: 20px;
+    height: 35px;
+    overflow: hidden;
+    background-color:var(--main-color);;
+    padding: 20px 10px;
+}
+.CHeader .Cart_1{
+    padding-left: 50px;
+    float: left;
+    font-size: 45px;
+    color: white;
+    cursor: pointer;
+}
+.CHeader .Cart_2{
+    padding-right: 40px;
+    float: right;
+    font-size: 45px;
+    color: white;
+    cursor: pointer;
+}
+
+.CHeader .search {
+    margin-top: 0;
+    margin-left: 30%;
+    text-align: center;
+    background-color: white;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    width: 30%;
+    height: 35px;
+    border-radius: 20px;
+
+}
+ ::placeholder{
+    color: #010000;
+    opacity: .2;
+}
+.select{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    cursor:pointer;
+}
+option{
+    background-color:white ;
+    font-family:"Poppins" ;
+}
+
+
+
+.Explore {
+    padding-top: 60px;
+}
+
+.Explore .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 70px 20px;
+}
+
+.Explore .container2 {
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    justify-content: center;
+    justify-items: center;
+}
+
+/* End Cart  */
+/* Start Footer  */
+.OrderFooter .contain {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.OrderFooter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 100px;
+}
+
+.OrderFooter button:hover {
+    background-color: white;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    letter-spacing: 1.7px;
+}
+
+.OrderFooter button {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: var(--main-color);
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.OrderFooter div {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+}
+
+/* End Footer  */
